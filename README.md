@@ -5,6 +5,8 @@ Catatan re-deployment http://tempel.blankonlinux.or.id
 ---------------------------------------------------------------------
 
 ## Dependensi:
+* pyenv
+* virtualenv
 * Python 2.6.6
 * Django 1.2.5
 * Pygments
