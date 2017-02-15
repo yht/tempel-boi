@@ -1,11 +1,14 @@
 # Tempel.BOI
+
 Catatan re-deployment http://tempel.blankonlinux.or.id
+
 ---------------------------------------------------------------------
 
 ## Dependensi:
 * Python 2.6.6
 * Django 1.2.5
 * SQLite3
+
 ---------------------------------------------------------------------
 
 ## Instalasi
