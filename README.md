@@ -7,6 +7,7 @@ Catatan re-deployment http://tempel.blankonlinux.or.id
 ## Dependensi:
 * Python 2.6.6
 * Django 1.2.5
+* Pygments
 * SQLite3
 
 ---------------------------------------------------------------------
@@ -37,10 +38,11 @@ $ virtualenv venv01
 $ source venv01/bin/activate
 ```
 
-Pasang django.
+Pasang django dan pygments.
 
 ```sh
 $ pip install django==1.2.5
+$ pip install pygments
 ```
 
 Unduh revisi terakhir dari dev.blankonlinux.or.id atau repo github ini.
@@ -58,6 +60,4 @@ $ python manage.py runserver
 
 ---------------------------------------------------------------------
 
-## Catatan
-
-Sampai saat ini masih terdapat beberapa masalah yang harus ditelusuri.
+Happy hacking!

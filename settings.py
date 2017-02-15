@@ -1,16 +1,16 @@
 # Django settings for tempelboi project.
 
-DEBUG = False
-TEMPLATE_DEBUG = False
+DEBUG = True
+TEMPLATE_DEBUG = True
 
 ADMINS = (
-    (''),
+    ('Yudha H Tejaningrat','yht.dev@gmail.com'),
 )
 
 MANAGERS = ADMINS
 
 DATABASE_ENGINE = 'sqlite3'
-DATABASE_NAME = '/home/situs/tempel/tempel.db'
+DATABASE_NAME = '/home/blankon-dev/tempel/tempel.db'
 DATABASE_USER = ''
 DATABASE_PASSWORD = ''
 DATABASE_HOST = ''
