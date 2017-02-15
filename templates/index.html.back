@@ -1,0 +1,20 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="/+media/style.css"/>
+<script type="text/javascript">
+function setFocus() {
+    document.getElementById('content').focus();
+}
+</script>
+</head><body onload="setFocus()">
+
+<div id="new">
+<form method="post">
+<p><label for="language">Language</label>
+    {{ form.language }}</p>
+<p>{{ form.content }}</p>
+<p>{{ form.private }} <label for="id_private">Private</label></p>
+<p><input type="submit" value="Submit"/></p>
+</form>
+</div>
+
+</body></html>

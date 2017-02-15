@@ -1,0 +1,16 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="/+media/style.css"/>
+<link rel="stylesheet" type="text/css" href="/+media/pastie.css"/>
+</head><body>
+<p>Language: {{ language }}</p>
+<div class="pastie">
+{% autoescape off %}{{ content }}{% endautoescape %}
+</div>
+<p><a href="{{ entry.raw_url }}">raw format</a> &ndash;
+    <a href="{{ entry.download_url_short }}">download</a>
+    &ndash; <a href="{{ entry.duplicate_url }}">duplicate</a>
+{% if editable %}
+    &ndash; <a href="{{ entry.edit_url }}">edit</a>
+{% endif %}
+    </p>
+</body></html>

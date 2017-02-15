@@ -1,0 +1,202 @@
+/**
+ * BlankOn Tempel CSS File
+ * @author Aji Kisworo Mukti (a.k.a adzymaniac) <saya@adzymaniac.web.id>
+ * @copyright 2010 All Rights Reserved;
+ * @address http://wwww.adzymaniac.web.id/
+ * Modified by PrinceOfGiri
+ * http://ahmadharis.wordpress.com
+ * princeofgiri@di.blankon.in
+ */
+ 
+* { margin: 0; padding: 0; }
+
+body {
+   font: 12px Arial;
+   text-align: left;
+   background-color: #73D216;
+   color: #4E9A06;
+}
+
+#wrapper {
+   width: 90%;
+   margin: 0 auto;
+}
+
+#header {
+   font: bold 16px Tahoma;
+   color: #ffffff;
+   margin: 16px 0 8px 0;
+}
+
+#body {
+   text-align: center;
+   border: 1px solid #000000;
+   padding: 12px;
+   background-color: #fff;
+   overflow: auto;
+}
+
+#body #left-sidebar {
+   float: left;
+   padding-right: 6px;
+   width: 168px;
+}
+
+#body #left-sidebar .block .title {
+   background-color: #2E3436;
+   padding: 2px;
+   font: bold 14px Arial;
+   color: #ffffff;
+}
+
+#body #left-sidebar .block .content {
+   padding: 4px;
+   margin-top: 8px;
+   text-align: left;
+   color: #4E9A06;
+}
+
+#body #left-sidebar .block .content .list {
+   font-size: 14px;
+   list-style-type: none;
+   text-align: left;
+}
+
+#body #left-sidebar .block .content .list li {
+   font: bold 12px Arial;
+   overflow: auto;
+}
+
+#body #left-sidebar .block .content .list li:hover {
+   background: #e0eaf4;
+}
+
+#body #left-sidebar .block .content .list li .timeAgo {
+   font: 12px Arial;
+   float: right;
+}
+
+#body #content {
+   float: right;
+   width: 80%;
+   text-align: left;
+   color: #000000;
+   font: bold 13px Arial;
+}
+
+#body #content .title {
+   background-color: #73D216;
+   font: bold 14px Arial;
+   color: #8AE234;
+   margin-bottom: 14px;
+   padding: 6px;
+   border: 1px solid #8AE234; 
+}
+
+#footer {
+   margin: 4px 0 8px 0;
+   text-align: center;
+   border: 1px solid #000000;
+   padding: 4px;
+   background-color: #ffffff;
+   color: #000000;
+   font: bold 12px Arial;
+}
+
+#footer a {
+   color: #2E3436;
+   text-decoration: underline;
+}
+
+#footer a:hover, a:active {
+   color: #204A87;
+}
+
+a {
+   color: #2E3436;
+   text-decoration: none;
+}
+
+a:hover, a:active {
+   color: #204A87;
+   text-decoration: underline;
+}
+
+a.link1 {
+   color: #2E3436;
+}
+
+a.link2 {
+   color: #2E3436;
+}
+
+.right {
+   float: right;
+}
+
+.left {
+   float: left;
+}
+
+label {
+   margin-right: 5px;
+   font: bold 18px Arial;
+   color: #2E3436;
+}
+
+select {
+   padding: 4px;
+   color: #2E3436;
+   font: bold 12px Arial;
+}
+
+option {
+   color: #888A85;
+   padding: 0 4px 0 4px;
+   font: bold 12px Arial;
+   text-decoration: none;
+}
+
+optgroup {
+   color: #555753;
+}
+
+.icon {
+   float: left;
+   margin-right: 3px;
+}
+
+.hl {
+   background-color: #faf9db;
+}
+
+.clearfix {
+   clear: both;
+   text-indent: -9999em;
+   height: 0;
+   width: 0;
+   font-size: 0;
+}
+
+.nBtn {
+   background: #8AE234;
+   border: 1px solid #425E2C;
+   margin: 0;
+   padding: 4px;
+   color: #4e679c;
+   font: bold 12px Arial;
+}
+
+.thumbnail {
+   margin: 5px 0px 10px 10px;
+   background: #fafafa;
+   border: 1px solid #e4e4e4;
+   padding: 8px;
+}
+
+img { border: 0; }
+
+.pngfix { behavior: url('<?php echo ROOT?>/js/iepngfix.htc'); }
+
+.nRound3 { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+.nRound6 { border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px; }

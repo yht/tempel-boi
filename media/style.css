@@ -1,0 +1,22 @@
+/**
+body {
+    font-family: "gill sans", "trebuchet ms", sans-serif;
+    margin: 20px;
+    background: #EDE6D4;
+}
+**/
+
+#new label {
+    padding-right: 10px;
+}
+#id_content {
+    width: 99%;
+    height: 300px;
+    padding: 3px;
+    border: 1px solid;
+}
+
+.linenodiv {
+    margin: 0 10px;
+}
+
