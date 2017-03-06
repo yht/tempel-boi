@@ -74,6 +74,7 @@ TEMPEL_LANGUAGES = [
     t('cpp',         'C++',              'cpp',      'text/x-c++src'),
     t('css',         'CSS',              'css',      'text/css'),
     t('diff',        'Diff',             'diff',     'text/x-diff'),
+    t('golang',      'GO',               'go',       'text/x-go'),
     t('html',        'HTML',             'html',     'text/html'),
     t('html+django', 'HTML+Django',      'html',     'text/html'),
     t('ini',         'INI',              'ini',      'text/plain'),
