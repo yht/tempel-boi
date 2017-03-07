@@ -32,6 +32,17 @@ Reload shell, lalu jalankan perintah instalasi Python 2.6.6.
 $ pyenv install 2.6.6
 ```
 
+Set versi python menjadi 2.6.6 dengan menggunakan Pyenv
+
+```sh
+$ pyenv versions
+* system (set by /home/username/.pyenv/version)
+  2.6.6
+$ pyenv shell 2.6.6
+$ python --version
+Python 2.6.6
+```
+
 Pasang virtualenv melalui pip dan buat lingkungan virtual lalu aktifkan.
 
 ```sh
@@ -43,8 +54,7 @@ $ source venv01/bin/activate
 Pasang django dan pygments.
 
 ```sh
-$ pip install django==1.2.5
-$ pip install pygments
+$ pip install -r requirements.txt
 ```
 
 Unduh revisi terakhir dari dev.blankonlinux.or.id atau repo github ini.
