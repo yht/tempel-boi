@@ -1,4 +1,4 @@
-appdirs==1.4.0
+appdirs==1.4.3
 argparse==1.4.0
 Django==1.2.5
 packaging==16.8
