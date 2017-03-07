@@ -10,7 +10,7 @@ ADMINS = (
 MANAGERS = ADMINS
 
 DATABASE_ENGINE = 'sqlite3'
-DATABASE_NAME = '/home/blankon-dev/tempel/tempel.db'
+DATABASE_NAME = 'tempel.db'
 DATABASE_USER = ''
 DATABASE_PASSWORD = ''
 DATABASE_HOST = ''
@@ -93,4 +93,3 @@ TEMPEL_LANGUAGES = [
 ]
 
 TEMPEL_EDIT_AGE = 5 # minutes
-
